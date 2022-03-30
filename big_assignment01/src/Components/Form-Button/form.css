@@ -1,0 +1,38 @@
+.form-total {
+  width: 500px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 15px 15px;
+  background-color: #ad7ae2;
+}
+
+.box-input {
+  /* border: 1px solid black; */
+  margin: 10px;
+  color: white;
+  display: flex;
+}
+
+.box-label {
+  width: 30px;
+  padding-top: 5px;
+}
+
+.box-input input {
+  width: 400px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 10px;
+}
+
+.box-button {
+  text-align: right;
+}
+
+.box-button button {
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 12px;
+}
