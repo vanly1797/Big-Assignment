@@ -23,7 +23,7 @@ export const InputForm = () => {
     }
 
     return (
-        <form className="form-total">
+        <div className="form-total">
             <div className="box-temp01" style={{display: hide}}>
                 <div className="box-input">
                     <div className="box-label">Name</div>
@@ -47,6 +47,6 @@ export const InputForm = () => {
                     <button type="submit" id="btnAddExpense" onChange={handleFormSubmit} onClick={handleHideExpense}>ADD NEW EXPENSE</button>
                 </div>
             </div>
-        </form>
+        </div>
     );
 };
