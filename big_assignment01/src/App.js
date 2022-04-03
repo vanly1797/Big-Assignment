@@ -6,11 +6,14 @@ import { FilterByMonth } from "./Components/ProgressBar/Month";
 function App() {
   return (
     <div className="App">
+      <div>
         <InputForm />
-        <div className="progressbar-total">
-          <FilterByYear />
-          <FilterByMonth />
-        </div>
+      </div>
+        
+      <div className="progressbar-total">
+        <FilterByYear />
+        <FilterByMonth />
+      </div>
     </div>
   );
 }
