@@ -1,2 +1,2 @@
-export * from "./ExpenseForm";
+export * from "./ExpenseInputForm";
 export * from "./DetailSection";

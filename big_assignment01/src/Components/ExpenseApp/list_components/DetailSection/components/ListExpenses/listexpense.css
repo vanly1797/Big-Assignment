@@ -1,0 +1,32 @@
+.container-expense-total{
+    display: flex;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: #575757;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+}
+
+.container-expense-date{
+    flex-direction: column-reverse;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #191919;
+    padding: 10px;
+}
+
+.container-expense-name{
+    flex-direction: column-reverse;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container-expense-amount{
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #862796;
+    padding: 10px;
+    margin-left: 340px;
+}

@@ -1,0 +1,23 @@
+.container-total{
+    /* border: 1px solid blue; */
+    width: 700px;
+    margin-top: 20px;
+    background-color: #191919;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.container-month{
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    background-color: #E1CAE4;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}

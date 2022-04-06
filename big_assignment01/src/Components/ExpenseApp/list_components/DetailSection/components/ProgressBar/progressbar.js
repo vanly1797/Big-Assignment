@@ -1,3 +1,5 @@
+import './style.css';
+
 export const ProgressBar = (props) => {
   const { month, percentage } = props;
   return (

@@ -1,20 +1,8 @@
-import { InputForm } from "./Components/Form-Button/Form";
-import { FilterByYear } from "./Components/ProgressBar/FilterByYear";
-import './app.css'
-import { FilterByMonth } from "./Components/ProgressBar/Month";
+import { ExpenseApp } from "./Components/ExpenseApp";
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <InputForm />
-      </div>
-        
-      <div className="progressbar-total">
-        <FilterByYear />
-        <FilterByMonth />
-      </div>
-    </div>
+    <ExpenseApp />
   );
 }
 

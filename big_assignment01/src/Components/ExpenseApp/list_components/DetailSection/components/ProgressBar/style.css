@@ -1,16 +1,20 @@
 .progress-bar-container {
     display: flex;
     flex-direction: column;
-    margin: 0 8px;
+    margin: 0 15px;
+    text-align: center;
+    font-size: 15px;
 }
 .progress-outer {
     height: 200px;
-    width: 40px;
-    background-color: lightblue;
+    width: 20px;
+    background-color: #BAA5ED;
     display: flex;
     flex-direction: column-reverse;
+    border-radius: 10px;
 }
 .progress-inner {
     width: 100%;
-    background-color: blue;
+    background-color: #3D15A9;
+    border-radius: 10px;
 }
