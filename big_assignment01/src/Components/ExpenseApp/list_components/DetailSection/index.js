@@ -16,7 +16,7 @@ export const DetailSection = (props) => {
             <div className="container-header">
                 <span>Filter by year</span>
                 <select value={selectedYear} onChange={handleChangeYear}>
-                    {[2021, 2022, 2023].map((year) => {
+                    {[2021, 2022, 2023, 2024].map((year) => {
                         return <option value={year}>{year}</option>;
                     })}
                 </select>

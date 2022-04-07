@@ -1,4 +1,3 @@
-// import "";
 import { ProgressBar } from "../ProgressBar/progressbar";
 
 export const FilterByMonth = (props) => {

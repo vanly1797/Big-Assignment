@@ -30,13 +30,12 @@ export const ExpenseInputForm = (props) => {
   const handleHideExpense = () => {
     setUnhide("none");
     setHide("block");
-    // console.log("hide expense");
   };
 
   const handleHideForm = () => {
     setUnhide("block");
     setHide("none");
-    // console.log("hide form");
+    setFormValue(defaultValue);
   };
 
   return (
@@ -82,13 +81,12 @@ export const ExpenseInputForm = (props) => {
           ></input>
         </div>
         <div className="box-button">
-          <button type="submit" id="btnAdd">
+          <button type="submit" id="btnAdd" onClick={handleFormSubmit}>
             ADD
           </button>
           <button
             type="submit"
             id="btnCancel"
-            onChange={handleFormSubmit}
             onClick={handleHideForm}
           >
             CANCEL
@@ -100,7 +98,6 @@ export const ExpenseInputForm = (props) => {
           <button
             type="submit"
             id="btnAddExpense"
-            onChange={handleFormSubmit}
             onClick={handleHideExpense}
           >
             ADD NEW EXPENSE
